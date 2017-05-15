@@ -1,6 +1,9 @@
-git init
-curl -u $(user) https://api.github.com/user/repos -d '{"name":$(repo),"description":$(descrip)}'
-# Remember replace USER with your username and REPO with your repository/application name!
-git remote add origin git@github.com/$(user)/$(repo).git
-git push origin master
+## Use:
+```bash
+$ curl -u "USER" https://api.github.com/user/repos -d '{"name":"REPO","description":"DESCRIPTION"}'
+# Remember replace USER with your username and REPO and DESCRIPTION with your repository/application name and description.
+$ git init
+$ git remote add origin git@github.com/USER/REPO.git
+$ git push origin master
+```
 
