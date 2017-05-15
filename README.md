@@ -16,5 +16,6 @@ $ curl -u "USER" https://api.github.com/user/repos -d '{"name":"REPO","descripti
 $ sh create-repo.sh
 ```
 
-
+### Reference
+[GitHub Developer](https://developer.github.com/v3/repos/)
 
