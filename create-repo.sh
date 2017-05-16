@@ -1,8 +1,9 @@
-comd='"'
-coms="'"
+#!/bin/bash
 
+dquo='"'
 name='"name"'
 description='"description"'
+
 echo "Please enter your  username"
 read username
 echo "Please enter your new repository"
@@ -10,7 +11,7 @@ read repo
 echo "Please enter your description"
 read descrip
 
-d={$name:$comd$repo$comd,$description:$comd$descrip$comd}
+d={$name:$dquo$repo$dquo,$description:$dquo$descrip$dquo}
 
 #echo $d
 #example $d = '{"name":"name","description":"description"}'
